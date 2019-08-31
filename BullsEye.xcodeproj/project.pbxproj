@@ -12,6 +12,10 @@
 		4F11E5C92317FA75002890BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F11E5C72317FA75002890BA /* Main.storyboard */; };
 		4F11E5CB2317FA77002890BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F11E5CA2317FA77002890BA /* Assets.xcassets */; };
 		4F11E5CE2317FA77002890BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F11E5CC2317FA77002890BA /* LaunchScreen.storyboard */; };
+		4FA668DC231A794700583128 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA668DB231A794700583128 /* AboutViewController.swift */; };
+		4FA668E0231A7DA000583128 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA668DF231A7DA000583128 /* AboutAuthorViewController.swift */; };
+		4FA668E2231A892300583128 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 4FA668E1231A892300583128 /* BullsEye.html */; };
+		4FA668E5231A8D4000583128 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA668E4231A8D3F00583128 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4F11E5CA2317FA77002890BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F11E5CD2317FA77002890BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F11E5CF2317FA77002890BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FA668DB231A794700583128 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4FA668DF231A7DA000583128 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		4FA668E1231A892300583128 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		4FA668E4231A8D3F00583128 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA668E5231A8D4000583128 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,7 @@
 			children = (
 				4F11E5C22317FA75002890BA /* BullsEye */,
 				4F11E5C12317FA75002890BA /* Products */,
+				4FA668E3231A8D3F00583128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +66,23 @@
 			children = (
 				4F11E5C32317FA75002890BA /* AppDelegate.swift */,
 				4F11E5C52317FA75002890BA /* ViewController.swift */,
+				4FA668DB231A794700583128 /* AboutViewController.swift */,
 				4F11E5C72317FA75002890BA /* Main.storyboard */,
+				4FA668DF231A7DA000583128 /* AboutAuthorViewController.swift */,
 				4F11E5CA2317FA77002890BA /* Assets.xcassets */,
 				4F11E5CC2317FA77002890BA /* LaunchScreen.storyboard */,
+				4FA668E1231A892300583128 /* BullsEye.html */,
 				4F11E5CF2317FA77002890BA /* Info.plist */,
 			);
 			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		4FA668E3231A8D3F00583128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA668E4231A8D3F00583128 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F11E5CE2317FA77002890BA /* LaunchScreen.storyboard in Resources */,
+				4FA668E2231A892300583128 /* BullsEye.html in Resources */,
 				4F11E5CB2317FA77002890BA /* Assets.xcassets in Resources */,
 				4F11E5C92317FA75002890BA /* Main.storyboard in Resources */,
 			);
@@ -135,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA668DC231A794700583128 /* AboutViewController.swift in Sources */,
 				4F11E5C62317FA75002890BA /* ViewController.swift in Sources */,
 				4F11E5C42317FA75002890BA /* AppDelegate.swift in Sources */,
+				4FA668E0231A7DA000583128 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
